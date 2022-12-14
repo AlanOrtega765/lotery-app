@@ -30,7 +30,7 @@ const app = createApp(App);
 
 app.use(router);
 app.use(SocketIo, {
-  connection: 'http://localhost:8000',
+  connection: 'localhost:8000',
   reconnection: false,
   options: {},
 });
